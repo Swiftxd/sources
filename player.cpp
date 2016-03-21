@@ -6,5 +6,6 @@ if(const Player* player = creature->getPlayer())
 return !player->isGhost() || (getAccess() > 2 && getGhostAccess() >= player->getGhostAccess());
 return !creature->isInvisible() || canSeeInvisibility();
 	if(party)
-		party->isPlayerMember(player)) {return !creature->isInvisible() || canSeeInvisibility();
+		party->isPlayerMember(player) 
+			return !creature->isInvisible() || canSeeInvisibility();
 }
